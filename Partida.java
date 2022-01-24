@@ -10,7 +10,7 @@ public class Partida {
     private Palabra[] palabras;
 
     //constructor vacio
-    public Partida() {
+    public miPartida() {
     }
 
     //constructor parametrizado
@@ -22,17 +22,17 @@ public class Partida {
     }
 
     //metodo que muestra la ejecuccion
-    public static void pintarMenu(){
+    public void pintarMenu(){
 
     }
 
     //metodo que comprueba si se ha ganado el juego
-    public static void comprobarJugada(){
+    public void comprobarJugada(){
 
     }
 
     //metodo que comprueba si se ha perdido el juego
-    public static void juegoPerdido(){
+    public void juegoPerdido(){
 
     }
 }
